@@ -1,0 +1,30 @@
+{
+    "name": "mundocrypto-dao",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compile": "npx hardhat compile",
+        "test": "npx hardhat test",
+        "coverage": "npx hardhat coverage",
+        "clean": "npx hardhat clean && rm -rf cache coverage coverage.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mundocrypto/Mundocrypto-DAO.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Mundocrypto/Mundocrypto-DAO/issues"
+    },
+    "homepage": "https://github.com/Mundocrypto/Mundocrypto-DAO#readme",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+        "hardhat": "^2.13.0"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^4.8.2"
+    }
+}
